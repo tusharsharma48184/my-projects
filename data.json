@@ -1,0 +1,94 @@
+{
+  "mandi": [
+    { "name": "Wheat",     "emoji": "🌾", "price": 2275, "prev": 2230, "unit": "₹/quintal", "state": "UP" },
+    { "name": "Paddy",     "emoji": "🌿", "price": 2183, "prev": 2205, "unit": "₹/quintal", "state": "UP" },
+    { "name": "Mustard",   "emoji": "🌻", "price": 5450, "prev": 5330, "unit": "₹/quintal", "state": "UP" },
+    { "name": "Potato",    "emoji": "🥔", "price": 1200, "prev": 1280, "unit": "₹/quintal", "state": "UP" },
+    { "name": "Sugarcane", "emoji": "🎋", "price": 350,  "prev": 340,  "unit": "₹/quintal", "state": "UP" },
+    { "name": "Maize",     "emoji": "🌽", "price": 1870, "prev": 1835, "unit": "₹/quintal", "state": "UP" },
+    { "name": "Onion",     "emoji": "🧅", "price": 2400, "prev": 2200, "unit": "₹/quintal", "state": "UP" },
+    { "name": "Tomato",    "emoji": "🍅", "price": 3200, "prev": 3350, "unit": "₹/quintal", "state": "UP" },
+    { "name": "Soybean",   "emoji": "🫘", "price": 4600, "prev": 4520, "unit": "₹/quintal", "state": "UP" },
+    { "name": "Chickpea",  "emoji": "🟡", "price": 5440, "prev": 5400, "unit": "₹/quintal", "state": "UP" }
+  ],
+  "pests": [
+  {
+    "name": "Aphids",
+    "emoji": "🐛",
+    "affects": "Mustard, Wheat, Vegetables",
+    "identify": "Small green or black insects on leaves and stems.",
+    "identify_hi": "छोटे हरे या काले कीड़े जो पत्तियों और तनों पर दिखाई देते हैं।",
+    "damage": "They suck plant juice and make leaves weak and yellow.",
+    "damage_hi": "ये पौधे का रस चूसते हैं जिससे पत्ते पीले और कमजोर हो जाते हैं।",
+    "treatment": "Spray Neem oil or Imidacloprid.",
+    "treatment_hi": "नीम तेल या इमिडाक्लोप्रिड का छिड़काव करें।",
+    "prevention": "Keep field clean and avoid too much fertilizer.",
+    "prevention_hi": "खेत साफ रखें और ज्यादा खाद का उपयोग न करें।"
+  },
+  {
+    "name": "Yellow Stem Borer",
+    "emoji": "🦟",
+    "affects": "Rice, Sugarcane",
+    "identify": "Holes in plant stem, plant dries from inside.",
+    "identify_hi": "तने में छेद हो जाते हैं और पौधा अंदर से सूख जाता है।",
+    "damage": "Plant stops growing and crop reduces.",
+    "damage_hi": "पौधे की वृद्धि रुक जाती है और फसल कम हो जाती है।",
+    "treatment": "Use Chlorpyrifos or local insecticide.",
+    "treatment_hi": "क्लोरपाइरीफॉस या सामान्य कीटनाशक का उपयोग करें।",
+    "prevention": "Remove infected plants early.",
+    "prevention_hi": "संक्रमित पौधों को समय पर हटा दें।"
+  },
+  {
+    "name": "Whitefly",
+    "emoji": "🦟",
+    "affects": "Cotton, Tomato",
+    "identify": "Small white flies flying around leaves.",
+    "identify_hi": "छोटी सफेद मक्खियाँ जो पत्तियों के पास उड़ती हैं।",
+    "damage": "Leaves become sticky and plant becomes weak.",
+    "damage_hi": "पत्ते चिपचिपे हो जाते हैं और पौधा कमजोर हो जाता है।",
+    "treatment": "Spray Neem oil or Thiamethoxam.",
+    "treatment_hi": "नीम तेल या थायोमेथोक्साम का छिड़काव करें।",
+    "prevention": "Use sticky traps and keep field clean.",
+    "prevention_hi": "स्टिकी ट्रैप लगाएं और खेत साफ रखें।"
+  },
+  {
+    "name": "Rust Disease",
+    "emoji": "🍂",
+    "affects": "Wheat, Mustard",
+    "identify": "Yellow or brown spots on leaves.",
+    "identify_hi": "पत्तियों पर पीले या भूरे धब्बे दिखाई देते हैं।",
+    "damage": "Leaves dry and yield decreases.",
+    "damage_hi": "पत्ते सूख जाते हैं और उत्पादन कम हो जाता है।",
+    "treatment": "Spray Propiconazole.",
+    "treatment_hi": "प्रोपिकोनाज़ोल का छिड़काव करें।",
+    "prevention": "Use good seeds and avoid late sowing.",
+    "prevention_hi": "अच्छे बीज का उपयोग करें और देर से बुवाई न करें।"
+  },
+  {
+    "name": "Late Blight",
+    "emoji": "💧",
+    "affects": "Potato, Tomato",
+    "identify": "Dark spots on leaves and rotting smell.",
+    "identify_hi": "पत्तियों पर काले धब्बे और सड़न की गंध आती है।",
+    "damage": "Crop can get destroyed quickly.",
+    "damage_hi": "फसल जल्दी खराब हो सकती है।",
+    "treatment": "Spray Mancozeb.",
+    "treatment_hi": "मैनकोजेब का छिड़काव करें।",
+    "prevention": "Avoid too much water in field.",
+    "prevention_hi": "खेत में ज्यादा पानी न रहने दें।"
+  },
+  {
+    "name": "Fall Armyworm",
+    "emoji": "🐝",
+    "affects": "Maize",
+    "identify": "Leaves have holes and insects inside.",
+    "identify_hi": "पत्तियों में छेद होते हैं और कीड़े अंदर होते हैं।",
+    "damage": "Plant gets eaten and damaged.",
+    "damage_hi": "पौधा खा लिया जाता है और खराब हो जाता है।",
+    "treatment": "Use Chlorantraniliprole spray.",
+    "treatment_hi": "क्लोरान्ट्रानिलिप्रोल का छिड़काव करें।",
+    "prevention": "Check crop regularly and act early.",
+    "prevention_hi": "फसल की नियमित जांच करें और जल्दी उपचार करें।"
+  }
+]
+}

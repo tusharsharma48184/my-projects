@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KisanSathi — Smart Farming Assistant</title>
+  <meta name="description" content="KisanSathi — Live weather, mandi prices, fertilizer calculator, crop calendar and pest guide for Indian farmers." />
+  <meta name="author" content="Tushar Sharma" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="profile logo by tushar sharma.png" />
+</head>
+<body>
+
+<!-- SIDEBAR CREDIT — Fixed on right side -->
+<div class="sidebar-credit">💻 Made by Tushar Sharma</div>
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+<nav class="nav">
+  <a href="#home" class="nav-logo">
+    <div class="lm">
+  <img src="profile logo by tushar sharma.png" alt="logo">
+</div>
+    <span class="lt">Kisan<span>Sathi</span></span>
+  </a>
+  <ul class="nav-menu" id="navMenu">
+    <li><a href="#home"     class="active">Home</a></li>
+    <li><a href="#weather">Weather</a></li>
+    <li><a href="#mandi">Market Prices</a></li>
+    <li><a href="#calc">Calculator</a></li>
+    <li><a href="#calendar">Calendar</a></li>
+    <li><a href="#pests">Pest Guide</a></li>
+  </ul>
+  <button class="nav-burger" id="navBurger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+<section class="hero" id="home">
+  <div class="hero-wrap">
+
+    <div>
+      <div class="hero-eyebrow">🌱 Your Digital Farming Companion</div>
+      <h1 class="hero-h1">
+        Your Fields Deserve
+        <span class="hl">Better Decisions</span>
+        <span class="hl2">— Free & Instant</span>
+      </h1>
+      <p class="hero-p">
+        KisanSathi gives you live weather with farming advice, today's mandi prices,
+        fertilizer dosage calculator, crop calendar and a complete pest guide —
+        everything a smart farmer needs, all in one place.
+      </p>
+      <div class="hero-btns">
+        <a href="#weather" class="btn btn-primary">🌤️ Check Weather</a>
+        <a href="#mandi"   class="btn btn-outline">💰 View Mandi Prices</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="hero-card-title">📊 What's Inside KisanSathi</div>
+      <div class="hero-stats-grid">
+        <div class="hs-box"><div class="hi">🌦️</div><div class="hn">Live</div><div class="hl-">Real-Time Weather</div></div>
+        <div class="hs-box"><div class="hi">💰</div><div class="hn">10</div><div class="hl-">Mandi Price Rates</div></div>
+        <div class="hs-box"><div class="hi">🐛</div><div class="hn">6</div><div class="hl-">Pest & Disease Guides</div></div>
+        <div class="hs-box"><div class="hi">📅</div><div class="hn">8</div><div class="hl-">Crops in Calendar</div></div>
+      </div>
+      <ul class="hfl">
+        <li><span class="chk">✓</span> City-wise weather with farm advisory</li>
+        <li><span class="chk">✓</span> 10 crop market prices with trend</li>
+        <li><span class="chk">✓</span> Fertilizer calculator — Urea, DAP, Potash</li>
+        <li><span class="chk">✓</span> Full year crop sowing &amp; harvest calendar</li>
+        <li><span class="chk">✓</span> Pest identification with treatment guide</li>
+        <li><span class="chk">✓</span> 100% Free — No login needed</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =====================================================
+     FEATURES
+===================================================== -->
+<section class="features" id="features">
+  <div class="wrap">
+    <div class="sh">
+      <span class="sh-tag">What We Offer</span>
+      <h2>Five Tools Built for Indian Farmers</h2>
+      <p>Each tool solves a real problem farmers face every day. Practical, simple, and free.</p>
+    </div>
+    <div class="feat-grid">
+      <a href="#weather" class="feat-tile">
+        <div class="feat-ico">🌦️</div>
+        <h3>Live Weather</h3>
+        <p>Real-time weather for any Indian city with specific farming advice based on current conditions.</p>
+        <div class="feat-arr">Explore →</div>
+      </a>
+      <a href="#mandi" class="feat-tile">
+        <div class="feat-ico">💰</div>
+        <h3>Market Prices</h3>
+        <p>Today's indicative mandi rates for 10 major crops with price change indicators.</p>
+        <div class="feat-arr">Explore →</div>
+      </a>
+      <a href="#calc" class="feat-tile">
+        <div class="feat-ico">🧮</div>
+        <h3>Fertilizer Calculator</h3>
+        <p>Enter field area in Hectare, Bigha or Acre — get exact Urea, DAP and Potash quantities.</p>
+        <div class="feat-arr">Explore →</div>
+      </a>
+      <a href="#calendar" class="feat-tile">
+        <div class="feat-ico">📅</div>
+        <h3>Crop Calendar</h3>
+        <p>Month-by-month sowing, growing and harvesting schedule for 8 major Indian crops.</p>
+        <div class="feat-arr">Explore →</div>
+      </a>
+      <a href="#pests" class="feat-tile">
+        <div class="feat-ico">🐛</div>
+        <h3>Pest &amp; Disease Guide</h3>
+        <p>Identify 6 major crop threats by their symptoms — with proven treatment solutions.</p>
+        <div class="feat-arr">Explore →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- =====================================================
+     WEATHER
+===================================================== -->
+<section class="weather" id="weather">
+  <div class="wrap">
+    <div class="sh">
+      <span class="sh-tag">Live Weather</span>
+      <h2>Today's Weather &amp; Farm Advisory</h2>
+      <p>Type any Indian city or district to get real-time weather with tailored farming guidance</p>
+    </div>
+    <div class="w-box">
+      <div class="w-row">
+        <input
+          type="text" class="w-inp" id="wInput"
+          placeholder="Enter city name… e.g. Modinagar, Ghaziabad, Noida, Delhi, Gurugram…"
+        />
+        <button class="btn btn-primary" onclick="fetchWeather()">🔍 Get Weather</button>
+      </div>
+      <div class="w-spin" id="wSpin">⏳ Fetching weather data...</div>
+      <div class="w-out"  id="wOut"></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="background:rgba(255,255,255,.06)"></div>
+
+<!-- =====================================================
+     MANDI PRICES
+===================================================== -->
+<section class="mandi" id="mandi">
+  <div class="wrap">
+    <div class="sh">
+      <span class="sh-tag">Market Prices</span>
+      <h2>Today's Mandi Rates</h2>
+      <p>Current indicative prices for 10 major crops — know when to sell for maximum profit</p>
+    </div>
+    <div class="mandi-grid" id="mandiGrid">
+      <!-- Filled by JS -->
+    </div>
+    <p class="mandi-note">
+      ⚠️ These are indicative reference prices only. Always verify with your local mandi or visit <strong>agmarknet.nic.in</strong> for official rates.
+    </p>
+  </div>
+</section>
+
+<div class="divider" style="background:rgba(255,255,255,.06)"></div>
+
+<!-- =====================================================
+     FERTILIZER CALCULATOR
+===================================================== -->
+<section class="calc" id="calc">
+  <div class="wrap">
+    <div class="sh">
+      <span class="sh-tag">Fertilizer Calculator</span>
+      <h2>How Much Fertilizer Do You Need?</h2>
+      <p>Select your crop and field size — get the exact quantity of Urea, DAP and Potash for best yield</p>
+    </div>
+    <div class="calc-box">
+      <h3>⚗️ Enter Your Field Details</h3>
+      <div class="calc-grid">
+        <div class="fg">
+          <label>Select Crop</label>
+          <select id="fCrop">
+            <option value="">Choose a Crop</option>
+            <option value="wheat">Wheat</option>
+            <option value="rice">Rice (Paddy)</option>
+            <option value="mustard">Mustard</option>
+            <option value="sugarcane">Sugarcane</option>
+            <option value="maize">Maize (Corn)</option>
+            <option value="potato">Potato</option>
+            <option value="onion">Onion</option>
+            <option value="tomato">Tomato</option>
+            <option value="other">Other / Unknown</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label>Field Area</label>
+          <input type="number" id="fArea" placeholder="e.g. 2.5" min="0.1" step="0.1" />
+        </div>
+        <div class="fg">
+          <label>Unit of Area</label>
+          <select id="fUnit">
+            <option value="bigha">Bigha (Pucca)</option>
+            <option value="hectare">Hectare (ha)</option>
+            <option value="acre">Acre</option>
+            <option value="guntha">Guntha</option>
+          </select>
+        </div>
+        <div class="fg" style="display:flex;align-items:flex-end">
+          <button class="btn btn-dark btn-full" onclick="calcFertilizer()">🧮 Calculate Now</button>
+        </div>
+      </div>
+
+      <div class="calc-result" id="calcResult">
+        <div class="cr-title">✅ Recommended Fertilizer Quantity for Your Field</div>
+        <div class="fert-row">
+          <div class="fi"><span class="fn" id="fUrea">—</span><div class="fu">Kilograms</div><div class="fl">Urea (N)</div></div>
+          <div class="fi"><span class="fn" id="fDAP">—</span><div class="fu">Kilograms</div><div class="fl">DAP (P)</div></div>
+          <div class="fi"><span class="fn" id="fPotash">—</span><div class="fu">Kilograms</div><div class="fl">Potash (K)</div></div>
+        </div>
+        <div id="fCost" style="text-align:center;color:var(--gold);font-weight:700;font-size:.95rem;margin-bottom:.8rem"></div>
+        <div class="calc-note">
+          💡 This estimate is based on standard agronomic recommendations per hectare.
+          Actual requirements vary with soil test results, crop variety and local conditions.
+          Consult your Soil Health Card or local Agriculture Officer for precise dosage.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- =====================================================
+     CROP CALENDAR
+===================================================== -->
+<section class="calendar" id="calendar">
+  <div class="wrap">
+    <div class="sh">
+      <span class="sh-tag">Crop Calendar</span>
+      <h2>Annual Farming Schedule</h2>
+      <p>Plan your entire year — know exactly when to sow, grow and harvest each major crop</p>
+    </div>
+    <div class="cal-scroll">
+      <table class="cal-table">
+        <thead>
+          <tr>
+            <th>Crop</th>
+            <th>Jan</th><th>Feb</th><th>Mar</th><th>Apr</th>
+            <th>May</th><th>Jun</th><th>Jul</th><th>Aug</th>
+            <th>Sep</th><th>Oct</th><th>Nov</th><th>Dec</th>
+          </tr>
+        </thead>
+        <tbody id="calBody"></tbody>
+      </table>
+    </div>
+    <div class="cal-legend">
+      <div class="cl-item"><span class="dot s">S</span> Sowing Period</div>
+      <div class="cl-item"><span class="dot g">G</span> Growing / Vegetative</div>
+      <div class="cl-item"><span class="dot h">H</span> Harvesting Period</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- =====================================================
+     PEST & DISEASE
+===================================================== -->
+<section class="pests" id="pests">
+  <div class="wrap">
+    <div class="sh">
+      <span class="sh-tag">Pest &amp; Disease Guide</span>
+      <h2>Identify, Treat &amp; Prevent Crop Threats</h2>
+      <p>Six major pests and diseases that affect Indian crops — with clear identification tips and proven solutions</p>
+    </div>
+    <div class="pest-grid" id="pestGrid">
+      <!-- Filled by JS -->
+    </div>
+  </div>
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+<footer>
+  <div class="ft-grid">
+    <div class="ft-about">
+      <div class="ft-brand"> KisanSathi</div>
+      <p>A smart farming assistant built to help Indian farmers make better, data-backed decisions every day — from weather to market prices.</p>
+    </div>
+    <div class="ft-col">
+      <h4>Tools</h4>
+      <ul>
+        <li><a href="#weather">Live Weather</a></li>
+        <li><a href="#mandi">Market Prices</a></li>
+        <li><a href="#calc">Fertilizer Calculator</a></li>
+      </ul>
+    </div>
+    <div class="ft-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="#calendar">Crop Calendar</a></li>
+        <li><a href="#pests">Pest Guide</a></li>
+        <li><a href="#features">All Features</a></li>
+      </ul>
+    </div>
+    <div class="ft-col">
+      <h4>Official Links</h4>
+      <ul>
+        <li><a href="https://agmarknet.nic.in" target="_blank" rel="noopener">Agmarknet</a></li>
+        <li><a href="https://mkisan.gov.in"    target="_blank" rel="noopener">mKisan Portal</a></li>
+        <li><a href="https://pmfby.gov.in"     target="_blank" rel="noopener">PM Fasal Bima</a></li>
+        <li><a href="https://data.gov.in"      target="_blank" rel="noopener">Data.gov.in</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ft-bottom">
+    <div class="ft-copy">© 2024 KisanSathi. All rights reserved. Prices shown are indicative only.</div>
+    <div class="ft-made">💻 Made by Tushar Sharma</div>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/mandi.js"></script>
+
+</body>
+</html>
